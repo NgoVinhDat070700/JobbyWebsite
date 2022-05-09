@@ -1,0 +1,107 @@
+.banner__page__title {
+    width: 100%;
+    max-height: 70px;
+    background-color: #242424;
+    color: whitesmoke;
+  }
+  .banner__page__content {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    position: relative;
+    padding: 25px 0px 30px 0px;
+  }
+  .banner__page__content .banner__left {
+    left: 0px;
+  }
+  .banner__page__content .banner__right {
+    position: absolute;
+    right: 0px;
+  }
+.main__pricing__plan{
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+} 
+.main__pricing__plan p{
+  color:#847577 ;
+}  
+.pricing__title{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pricing__title{
+    margin:30px 0px 30px;
+}
+.hr_pricing{
+    width: 50px;
+    background-color: #ff4500;
+    height: 1px;
+    margin-top: 30px;
+}
+
+  .container__pricing__lists{
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: auto auto ;
+        width: 770px;
+  }
+  .pricing__item{
+    border: 0.5px solid #f3f3f3;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 25px;
+    min-height: 500px;;
+  }
+  .pricing__content{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+  }
+  .pricing__content i{
+      font-size: 100px;
+      color: #ff4500;
+  }
+  .pricing__content h3{
+        margin: 30px 0px 30px 0px;
+  }
+  .pricing__content p{
+    margin-bottom: 10px;
+}
+  .bg-color{
+      background-color: #f3f3f3;
+      padding: 25px 0px 25px 0px;
+      text-align: center;
+      width: 100%;
+  }
+  .button_Free{
+      padding: 20px 0px 20px 0px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      margin: 0px 30px 0px 30px;
+  }
+  .button_company{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background-color: #ff4500;
+    color: white;
+    margin: 0px 30px 0px 30px;
+  }
+  @media only screen and (min-width : 1024px) and (max-width : 1366px) and (orientation : portrait) {
+  
+  
+  
+  }
+  @media only screen and (min-width : 768px) and (max-width : 1023px) and (orientation : portrait) {
+    
+    
+    
+  }
+  /*  */
+  @media (max-width:767px){
+    
+  }

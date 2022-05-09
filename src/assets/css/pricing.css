@@ -1,0 +1,149 @@
+.main__pricing__plan{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+.pricing__title{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pricing__title{
+    margin:30px 0px 30px;
+}
+.hr_pricing{
+    width: 50px;
+    background-color: #ff4500;
+    height: 1px;
+    margin-top: 30px;
+}
+.tabs {
+    display: flex;
+    margin-top: 75px;
+  }
+  .tab-item {
+    min-width: 70px;
+    padding: 16px 20px 11px 20px;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .tab-icon {
+    font-size: 24px;
+    width: 32px;
+    position: relative;
+    top: 2px;
+  }
+  .tab-item:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+  }
+  .tab-item.active {
+    opacity: 1;
+    border-bottom: none;
+  }
+  .tab-content {
+    padding: 28px 0;
+  }
+  .tab-pane {
+    color: #333;
+    display: none;
+  }
+  .tab-pane.active {
+    display: block;
+  }
+  .container__pricing__list{
+      display: grid;
+      width: 100%;
+      grid-template-columns: auto auto auto;
+     
+  }
+  .pricing__item{
+    border: 0.5px solid #f3f3f3;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 25px;
+    min-height: 500px;
+    width: 330px;
+  }
+  .pricing__content{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+  }
+  .pricing__content i{
+      font-size: 100px;
+      color: #ff4500;
+  }
+  .pricing__content h3{
+        margin: 30px 0px 30px 0px;
+  }
+  .pricing__content p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+  .bg-color{
+      background-color: #f3f3f3;
+      padding: 25px 0px 25px 0px;
+      text-align: center;
+      width: 100%;
+  }
+  .button_purchase{
+      padding: 20px 0px 20px 0px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      margin: 0px 30px 30px 30px;
+  }
+  .statement__pricing{
+      margin-top: 70px;
+      border: 0.5px solid #f3f3f3;
+      width: 100%;
+  }
+  .statement__pricing h3{
+      border-bottom: 0.5px solid #f3f3f3;
+      padding: 25px 30px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  .container__tab{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .pricing__content img{
+    border-radius: 100%;
+  }
+  @media only screen and (min-width : 1024px) and (max-width : 1366px) and (orientation : portrait) {
+  
+  
+  
+  }
+  @media only screen and (min-width : 768px) and (max-width : 1023px) and (orientation : portrait) {
+    
+    
+    
+  }
+  /*  */
+  @media (max-width:767px){
+    
+  }

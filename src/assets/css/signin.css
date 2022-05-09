@@ -1,0 +1,133 @@
+
+
+.section__signin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 500px;
+    padding-bottom: 80px;
+}
+
+.left-sign-in{
+    width: 45%;
+    border: 1px solid #e1e1e1;
+    padding: 50px 30px 67px 30px;
+}
+
+.left-sign-in .left-sign-in-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-sign-in-title hr{
+    margin:30px 0px;
+}
+.title-email-password p{
+    font-size: 14px;
+}
+
+.title-email-password p{
+    color: #242424;
+}
+
+.title-email-password input{
+    height: 39px;
+    width: 100%;
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 32px;
+   
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+}
+
+.left-sign-in .btn-sign-in{
+    width: 100%;
+    height: 50px;
+    background-color: #ff4500;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 27px;
+}
+
+.left-sign-in-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.left-sign-in-bottom p{
+    color: #b5acad;
+    margin-right: 4px;
+}
+
+.left-sign-in-bottom .join-us-now{
+    display: flex;
+}
+
+.left-sign-in-bottom a{
+    color: #ff5e22;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #242424;
+}
+
+.right-sign-in{
+    width: 55%;
+}
+
+.right-sign-in img{
+    width: 100%;
+    height: 510px
+}
+@media only screen and (min-width : 1024px) and (max-width : 1366px) and (orientation : portrait) {
+  
+    .section__signin{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 500px;
+    }
+  
+}
+@media only screen and (min-width : 768px) and (max-width : 1023px) and (orientation : portrait) {
+  
+  
+    .section__signin{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 500px;
+    }
+}
+/*  */
+@media (max-width:767px){
+    .section__signin{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 500px;
+    }
+}

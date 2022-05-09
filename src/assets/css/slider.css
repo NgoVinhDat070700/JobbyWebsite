@@ -1,0 +1,131 @@
+.slider_home{
+    width: 100%;
+    position: relative;
+}
+.container-fluid{width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.row{
+    height: 370px;
+    border: 0.5px solid #bfbfbf;
+    position: relative;
+    flex-shrink: 1;
+    color: #fff7f7;
+    width: fit-content;
+}
+.row>img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    
+}
+.content_slider{
+    position: absolute;
+    top: 70%;
+    opacity: 2;
+    left: 30px;
+    
+}
+.content_slider h3{
+    margin: 20px 0px;
+}
+.content_slider a{
+    padding: 8px 15px;
+    text-align: center;
+    background-color: #ff4500;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    color: #fff7f7;
+}
+.arrow__slide{
+    display: flex;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.arrow-left{
+    left: 10px;
+    font-size: 15px;
+}
+.arrow-right{
+    right: 10px;
+    font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+    .slider_home{
+        width: 100%;
+        position: relative;
+    }
+    .container-fluid{width: 100%;}
+    .row{
+        height: 370px;
+        border: 0.5px solid #bfbfbf;
+        position: relative;
+        flex-shrink: 1;
+        color: #fff7f7;
+    }
+    .row>img{
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        
+    }
+    .content_slider{
+        position: absolute;
+        top: 70%;
+        opacity: 2;
+        left: 30px;
+        
+    }
+    .content_slider h3{
+        margin: 20px 0px;
+    }
+    .content_slider a{
+        padding: 8px 15px;
+        text-align: center;
+        background-color: #ff4500;
+        text-decoration: none;
+        border-radius: 3px;
+        margin-top: 30px;
+        color: #fff7f7;
+    }
+    .arrow__slide{
+        display: flex;
+    }
+    .arrow{
+        width: 50px;
+        height: 50px;
+        background-color: #fff7f7;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        cursor: pointer;
+    }
+    .arrow-left{
+        left: 10px;
+        font-size: 15px;
+    }
+    .arrow-right{
+        right: 10px;
+        font-size: 15px;
+    }
+}

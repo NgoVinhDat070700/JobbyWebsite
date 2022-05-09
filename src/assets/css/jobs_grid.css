@@ -1,0 +1,776 @@
+main {
+  margin-bottom: 0px;
+}
+.banner__page__title {
+  width: 100%;
+  max-height: 70px;
+  background-color: #242424;
+  color: whitesmoke;
+}
+.banner__page__content {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  position: relative;
+  padding: 25px 0px 30px 0px;
+}
+.banner__page__content .banner__left {
+  left: 0px;
+}
+.banner__page__content .banner__right {
+  position: absolute;
+  right: 0px;
+}
+.main__container__section {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+.bg-card-red{
+  background-color: #ff4500;
+  color: #ffffff;
+}
+.container__left__filter,
+.container__left__skill,
+.container__left__availability {
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 0.5px solid gray;
+  margin-top: -10px;
+}
+.title__gird {
+  position: absolute;
+  left: 30px;
+  font-size: 18px;
+  color: #242424;
+  font-weight: 700;
+}
+.color-mo{
+  color: #847577;
+}
+.clear__gird {
+  position: absolute;
+  right: 30px;
+  font-size: 14px;
+  color: #847577;
+  font-weight: 400;
+}
+.check-availability{
+  display: flex;
+}
+.check-availability p{
+  margin-left: 5px;
+}
+.container__left__skill {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.form__search__kill {
+  margin-top: 25px;
+  display: flex;
+  border: 0.5px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.form__search__kill input {
+  border: none;
+  width: 95%;
+  height: 35px;
+}
+.select_date{
+  width: 95%;
+  height: 35px;
+}
+.list__tag__skills {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.list__tag__skills .tag__kill {
+  font-size: 10px;
+  border: 0.5px solid #847577;
+  border-radius: 20px;
+  padding: 5px;
+  min-width: 30px;
+  max-width: 90px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.form__jobtype,
+.form__exp__leve,
+.container__left__location {
+  border-bottom: 0.5px solid gray;
+  padding: 25px 0px;
+  justify-content: space-between;
+}
+.form__jobtype__title,
+.exp_titel,
+.form__location,
+.pay__rate__title {
+  display: flex;
+  position: relative;
+  margin-bottom: 30px;
+}
+.form__input__type,
+.form__search__location {
+  padding-left: 30px;
+}
+.container__left__skill .skill-title {
+  display: flex;
+}
+.banner__container__left {
+  display: flex;
+  flex-direction: column;
+
+  border: 0.5px solid gray;
+  max-width: 300px;
+  width: 300px;
+  height: fit-content;
+}
+.grid__pay {
+  margin-left: -30px;
+}
+.grid__clear {
+  margin-right: -30px;
+}
+.pay__rate__slide {
+  padding: 25px 30px;
+  border-bottom: 0.5px solid gray;
+}
+.check-cicle{
+  color: #ff4500;
+}
+.slider__pay__rate {
+  height: 5px;
+  border-radius: 5px;
+  background: #ddd;
+  position: relative;
+}
+.slider__pay__rate .progress {
+  height: 5px;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: orangered;
+}
+.range-input {
+  position: relative;
+}
+.range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: 0px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: orangered;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: #17a2b8;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+.form__search_location {
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 0.5px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.form__search_location input {
+  border: none;
+  width: 95%;
+  height: 35px;
+}
+.search__now {
+  padding: 15px;
+  text-align: center;
+  background-color: #ff4500;
+}
+
+/* Grid*/
+.container__gird__list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.container__gird__list__job__list {
+  margin-left: 0px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 30px;
+  width: 700px;
+}
+.gird_job_details {
+  border: 0.5px solid gray;
+  background-color: #ffffff;
+}
+.gird__job_detail_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail__header__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list__option {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+.list__option .card__name {
+  padding: 6px;
+    min-width: 30px;
+    max-width: 100px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #847577;
+    font-family: "Metropolis";
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    border: 1px solid #e6e6e6;
+}
+.grid__job__detail__body {
+  padding: 20px;
+}
+.grid__job__detail__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid__job__detail__footer .button__apply,
+.button__viewjob {
+  flex: 3;
+  border: 0.5px solid gray;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #847577;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.button__favorites {
+  flex: 1;
+  border: 0.5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30px;
+  padding: 14.5px 0px;
+  color: #847577;
+}
+.button__favorites:hover .boder-favorite{
+  background-color: #ff4500;
+  color: #ffffff;
+}
+.detail__header__left .image__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.banner__container__right {
+  flex: 2;
+  margin-left: 30px;
+  position: relative;
+}
+.banner__right__top img{
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+.tags__menu {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.tabs__left {
+  display: flex;
+}
+.tab__right {
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px 11px 20px;
+}
+.tabs .line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+}
+.tab-item {
+  width: 60px;
+  padding: 16px 20px 11px 20px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px solid transparent;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.tab-icon {
+  font-size: 14px;
+  width: 32px;
+  position: relative;
+  top: 2px;
+}
+.tab-item:hover {
+  opacity: 1;
+  background-color: rgba(194, 53, 100, 0.05);
+  border-color: rgba(194, 53, 100, 0.1);
+}
+.active {
+  opacity: 1;
+  color: #ffffff;
+  background-color: black;
+}
+.container__gird__list__job {
+  margin-left: 0px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+}
+.paginate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  
+}
+.next button {
+  background-color: orangered;
+  color: white;
+}
+.active_button {
+  background-color: black;
+  color: white;
+}
+.page__number{
+  display: flex;
+}
+.previous,.next,.page__number{
+  list-style: none;
+  height: 20px;
+}
+.page__number li{
+  width: 30px;
+  height: 30px;
+  border: 0.5px solid #f3f3f3;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 5px;
+}
+@media only screen and (min-width : 1024px) and (max-width : 1366px) and (orientation : portrait) {
+  
+
+  .banner__page__content {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    position: relative;
+    padding: 25px 0px 30px 0px;
+  }
+  .main__container__section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+   
+  }
+  .banner__container__left {
+    display: flex;
+    flex-direction: column;
+  
+    border: 0.5px solid gray;
+    max-width: 270px;
+    width: 270px;
+    height: fit-content;
+  }
+  .banner__container__right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    position: relative;
+    width: 600px;
+  }
+ 
+  .container__gird__list {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .tags__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .tabs__left {
+    display: flex;
+  }
+  .tab__right {
+    right: 0px;
+    bottom: 0px;
+    padding: 16px 20px 11px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+  }
+  .tab-item {
+    width: 60px;
+    padding: 16px 20px 11px 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .tab-icon {
+    font-size: 14px;
+    width: 32px;
+    position: relative;
+    top: 2px;
+  }
+  .tab-item:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+  }
+  .active {
+    opacity: 1;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+  }
+  .container__gird__list__job {
+    margin-left: 0px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    margin-right: 0px;
+  }
+  .paginate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+  }
+  .next button {
+    background-color: orangered;
+    color: white;
+  }
+  .active_button {
+    background-color: black;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width : 768px) and (max-width : 1023px) and (orientation : portrait) {
+  
+  .banner__page__content {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    position: relative;
+    padding: 25px 0px 30px 0px;
+  }
+  .main__container__section {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 80px;
+   
+  }
+  .banner__container__left {
+    display: flex;
+    flex-direction: column;
+  
+    border: 0.5px solid gray;
+    max-width: 270px;
+    width: 270px;
+    height: fit-content;
+  }
+  .banner__container__right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    position: relative;
+    width: 600px;
+  }
+ 
+  .container__gird__list {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .tags__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .tabs__left {
+    display: flex;
+  }
+  .tab__right {
+    right: 0px;
+    bottom: 0px;
+    padding: 16px 20px 11px 20px;
+  }
+  .tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+  }
+  .tab-item {
+    width: 60px;
+    padding: 16px 20px 11px 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .tab-icon {
+    font-size: 14px;
+    width: 32px;
+    position: relative;
+    top: 2px;
+  }
+  .tab-item:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+  }
+  .active {
+    opacity: 1;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+  }
+  .container__gird__list__job {
+    margin-left: 0px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    margin-right: 0px;
+  }
+  .paginate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+  }
+  .next button {
+    background-color: orangered;
+    color: white;
+  }
+  .active_button {
+    background-color: black;
+    color: white;
+  }
+  .tab__right{
+    display: none;
+  }
+  
+}
+/*  */
+@media (max-width:767px){
+  .banner__page__content {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    position: relative;
+    padding: 25px 0px 30px 0px;
+  }
+  .main__container__section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 80px;
+   
+  }
+  .banner__container__left {
+    display: flex;
+    flex-direction: column;
+  
+    border: 0.5px solid gray;
+    max-width: 100%;
+    width: 100%;
+    height: fit-content;
+  }
+  .banner__container__right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+  }
+ 
+  .container__gird__list {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .tags__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .tabs__left {
+    display: flex;
+  }
+  .tab__right {
+    right: 0px;
+    bottom: 0px;
+    padding: 16px 20px 11px 20px;
+  }
+  .tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+  }
+  .tab-item {
+    width: 60px;
+    padding: 16px 20px 11px 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .tab-icon {
+    font-size: 14px;
+    width: 32px;
+    position: relative;
+    top: 2px;
+  }
+  .tab-item:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+  }
+  .active {
+    opacity: 1;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+  }
+  .container__gird__list__job {
+    margin-left: 0px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    margin-right: 0px;
+  }
+  .paginate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+  }
+  .next button {
+    background-color: orangered;
+    color: white;
+  }
+  .active_button {
+    background-color: black;
+    color: white;
+  }
+  .tab__right{
+    display: none;
+  }
+}

@@ -1,0 +1,99 @@
+.content_about{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.content_about p{
+    margin-top: 20px;
+    
+        color: #847577;
+ 
+}
+.we__choose__us{
+    display: flex;
+    background-color: #e1e1e1;
+    color: #ff4500;
+}
+.we__choose__us p,.we__choose__us .content,.we__choose__us h2{
+    color: #847577;
+}
+.left{
+   
+    width: 50%;
+    margin: 70px 0px 70px 200px;
+}
+.right{
+    margin-left: 20px;
+    background-color: #847577;
+    width: 50%;
+}
+.right .video{
+    background-color: #847577;
+    width: 50%;
+   
+
+}
+.meet_out_team{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px;
+    margin-bottom: 30px;
+}
+.meet_out_team h2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.list__team{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    text-align: center;
+}
+.item_team .div-image{
+    width: 200px;
+    height: 200px;
+    background-color: #e1e1e1;
+}
+.item_team .name{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.item_team .position{
+    color: #847577;
+    margin-bottom: 20px;
+}
+.list__social {
+    display: flex;
+    justify-content: space-between;
+    color: #847577;
+}
+.button-read-more{
+    margin-top: 20px;
+    padding: 10px 10px;
+    color: #e1e1e1;
+    background-color: #ff4500;
+    border: none;
+
+}
+.button-read-more:hover{
+    background-color: #242424;
+
+}
+@media  screen and  (max-width : 1024px) {
+  
+    
+}
+/*  */
+@media (max-width:767px){
+    
+}
