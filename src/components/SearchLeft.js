@@ -129,4 +129,4 @@ function SearchLeft({inputText,setInputText,onChangeInput,handleSearch}){
         </div>
     )
 }
-export default memo(SearchLeft)
+export default SearchLeft

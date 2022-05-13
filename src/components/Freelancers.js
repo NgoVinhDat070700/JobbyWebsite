@@ -9,8 +9,6 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 function Freelancer({data,type,setType}){
-  console.log(type)
- 
   const [jobs, setJobs] = useState([]);
   const [users, setUsers] = useState([]);
   const [currentPage,setCurrunPage] = useState(1);

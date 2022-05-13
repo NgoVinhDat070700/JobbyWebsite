@@ -7,7 +7,6 @@ import {
 import axios from "axios";
 import { Link } from "react-router-dom";
 function Project({data,type,setType}){
-  console.log(type)
   const [users,setUsers]=useState([])
   const [currentPage,setCurrunPage] = useState(1);
   const [itemPage,setItemPage] = useState(4);

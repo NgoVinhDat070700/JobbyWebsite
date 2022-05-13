@@ -1,7 +1,14 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
+import { addToCart } from '../redux/CartPricingSlice'
 
 function Pricing({pricing}){
-    console.log(pricing)
+
+  const dispatch = useDispatch()
+  const handleAddCart=(data)=>{
+      dispatch(addToCart(data))
+      alert("Lưu thành công vào giỏ hàng")
+  }
     return(
         <div class="tab-content">
             <div class="tab-pane actives">
@@ -20,7 +27,11 @@ function Pricing({pricing}){
                          {item.content}
                        </p>
                      </div>
-                     <div class="button_purchase">PURCHASE NOW</div>
+                     <div onClick={()=>handleAddCart({
+                       id:item.id,
+                       name:item.name,
+                       price:item.price,
+                     })} class="button_purchase">PURCHASE NOW</div>
                    </div>
                 ))}
               </div>

@@ -24,9 +24,12 @@ import Browser_Company from './pages/Company/Browser_Company';
 import Single_Project_View from './pages/Work/Single_Project_View';
 import Company_Profile from './pages/Company/Company_Profile';
 import Pricing_Plans from './pages/Pricing_Plans';
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
 
 function App() {
   return (
+    <Provider store={store} >
     <div className="App">
       <Router>
       <Navbar />
@@ -54,6 +57,7 @@ function App() {
       <Footer />
       </Router>
     </div>
+    </Provider>
   );
 }
 

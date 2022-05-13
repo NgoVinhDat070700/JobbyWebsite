@@ -45,7 +45,7 @@ function Browse_Jobs() {
     e.persist()
     setInputText({...inputText,[e.target.name]:e.target.value})
   })
-  const handleSearch = useMemo(()=>{
+  const handleSearch = ()=>{
     const Search = async ()=>{
       const res = await axios.get(`http://localhost:3000/jobs?categories_id=${inputText.searchJobType}`
       );
@@ -54,7 +54,7 @@ function Browse_Jobs() {
       setData(data);
    }
    Search()
-  },[inputText])
+  }
   function TabPanel(props) {
     const { children, value, index, ...other } = props;
 
